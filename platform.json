@@ -25,6 +25,13 @@
       "homepage": "https://www.wch.cn/downloads/",
       "title": "W.CH CH32Vxxx NoneOS SDK"
     },
+    "noneos-sdk-autoota": {
+      "package": "framework-wch-noneos-sdk",
+      "script": "builder/frameworks/noneos_sdk_autoota.py",
+      "description": "The W.CH CH58x Series Standard Peripheral Library without OS + A/B dual bank OTA support",
+      "homepage": "https://github.com/angelic47/platform-ch58x-autoota",
+      "title": "W.CH CH58x Series NoneOS SDK with OTA"
+    },
     "freertos": {
       "package": "framework-wch-freertos",
       "script": "builder/frameworks/freertos.py",
